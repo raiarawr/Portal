@@ -191,14 +191,25 @@ footer {
     width: 100%;
 }
 
-.settings{
-    margin-left: 22%;
+.settings-content{
+    position: absolute;
+    top: 3rem;
+    width: 70%;
+    height: 85%;
+    margin-left: 18rem;
+    float: over;
+    overflow: hidden;
+    color: var(--light-bg-color);
+}
+.settings-content h3{
+    padding-top: 1rem;
+    padding-left: 20rem;
+    font-size: 2rem;
+    font-family: "Marcellus SC", sans-serif;
 }
 .fillup {
     margin-top: 4%;
     margin-left: 18%;
-    font-size: 110%;
-
 }
 
 input {
@@ -238,6 +249,11 @@ input {
     opacity: 0;
     width: 0;
     height: 0;
+}
+.settings-content input{
+    padding: 5px;
+    border: #12372a;
+    border-radius: 10px;
 }
 
 .slider {

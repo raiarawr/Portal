@@ -53,7 +53,7 @@ header a{
 .buttons .login{
     background-color: var(--light-bg-color);
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid var(--bg-green);
     color: var(--bg-green);
     padding: 3px 6px;
     font-size: 1em;
