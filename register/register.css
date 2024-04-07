@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bg-green: #12372a;
+    --sagedark: #76885B;
+    --text-color: rgb(247, 246, 246);
+    --light-bg-color:#adbc9f;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: var(--bg-green) ;
+}
+/* navigation*/
+header{
+    background-color: var(--light-bg-color);
+    position: fixed;
+    width: 100%;
+    height: 2.5rem;
+    justify-content: center;
+    align-content: center;
+}
+header a{
+    color: var(--bg-green);
+    text-decoration: none;
+}
+.home{
+    font-family: "Marcellus SC", serif;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+.navright{
+    font-size: small;
+    float: right;
+    display: flex;
+    gap: 1rem;
+    margin-right: 2rem;
+}
+.buttons{
+    margin-left: 1rem;
+    justify-content: center;
+    
+
+}
+.buttons button{
+    padding: 3px;
+
+}
+.buttons .login{
+    background-color: var(--light-bg-color);
+    border-radius: 5px;
+    border: 1px solid black;
+    color: var(--bg-green);
+    padding: 3px 6px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.buttons .login:hover{
+    background-color: #a0c99b;
+    transform: scale(2rem);
+}
+.buttons .register{
+    background-image: linear-gradient(90deg, rgba(18,55,42,1) 0%, rgba(27,140,79,1) 100%);
+    border-radius: 5px;
+    border: 1px solid var(--bg-green);
+    color: var(--text-color);
+    padding: 3px 6px;
+    font-size: 1em;
+    cursor: pointer;
+}
+/*end of nav*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 2rem;
+}
+.form{
+    margin-top: 3rem;
+    background-color: rgba(189, 209, 187,0.5);
+    border-radius: 1rem;
+    width: 40rem;
+    height: 30rem;
+    display: flex;
+}
+.form .input-form{
+    position: relative;
+    width: 50%;
+}
+.form .input-form .content h1{ 
+   font-family: "Marcellus SC", sans-serif;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.form .side-image{
+  position: relative;
+  width: 50%;
+  height: 100%;  
+}
+
+.form .side-image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.form .input-form .content .input-field{
+    padding-left: 4rem;
+    font-size: 0.8rem;
+    color: var(--bg-color);
+    margin-top: 0.8em;
+}
+
+.input-field .box{
+    padding: 6px;
+    border: 2px var(--bg-color);
+    border-radius: 0.6rem;
+}
+
+.input-field input :focus,
+.input-field select:focus{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+    border: #12372a 1px;
+}
+
+.form .content .submit{
+    margin-top: 1rem;
+    text-align: center;
+    
+}
+.form .content  .submit button{
+    padding: 0.5rem 1rem ;
+    border: 1px #12372a;
+    border-radius: 0.6rem;
+    color: var(--bg-green);
+    background-color: rgb(161, 215, 233);
+}    
+.form .content .submit button a{
+    text-decoration: none;
+    color: var(--bg-green);
+}
+.form .content .login a{
+    font-size: 0.7rem;
+    margin-left: 4rem;
+    color: var(--bg-color);
+    text-decoration: none;
+}
+.form .content .login span{
+    color: rgb(161, 215, 233);
+}
+.form .content  .submit button:hover{
+    background: var(--bg-green);
+    color: #adbc9f;
+}
+.form .content  .submit button a:hover{
+    color: #adbc9f;
+}
+footer{
+    background-color: var(--light-bg-color);
+    color: var(--bg-green);
+    font-size: 0.6rem;      
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    height: 1rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

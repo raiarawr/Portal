@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bg-green: #12372a;
+    --sagedark: #76885B;
+    --text-color: rgb(247, 246, 246);
+    --light-bg-color:#adbc9f;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: var(--bg-green) ;
+}
+/* navigation*/
+header{
+    background-color: var(--light-bg-color);
+    position: fixed;
+    width: 100%;
+    height: 2.5rem;
+    justify-content: center;
+    align-content: center;
+}
+header a{
+    color: var(--bg-green);
+    text-decoration: none;
+}
+.home{
+    font-family: "Marcellus SC", serif;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+.navright{
+    font-size: small;
+    float: right;
+    display: flex;
+    gap: 1rem;
+    margin-right: 2rem;
+}
+.buttons{
+    margin-left: 1rem;
+    justify-content: center;
+    
+
+}
+.buttons button{
+    padding: 3px;
+
+}
+.buttons .login{
+    background-color: var(--light-bg-color);
+    border-radius: 5px;
+    border: 1px solid black;
+    color: var(--bg-green);
+    padding: 3px 6px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.buttons .login:hover{
+    background-color: #a0c99b;
+    transform: scale(2rem);
+}
+.buttons .register{
+    background-image: linear-gradient(90deg, rgba(18,55,42,1) 0%, rgba(27,140,79,1) 100%);
+    border-radius: 5px;
+    border: 1px solid var(--bg-green);
+    color: var(--text-color);
+    padding: 3px 6px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.logo img{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    top: 1rem;
+}
+.logo{
+    margin-top: 1rem;
+    display: flex;
+    align-content: center;
+    transition: all 0.5s ease;
+    margin: 10px 0 0 10px;
+}
+.logo span{
+    top: 20px;
+    padding-top: 0.7rem;
+    font-weight: bold;
+    padding-left: 18px;
+    font-size: 16px;
+    color: #12372a;
+    text-transform: uppercase;
+}
+.container .sidebar{
+    position: absolute;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    top: 2.8rem;
+    bottom: 0;
+    height: 85%;
+    left: 0;
+    background: var(--light-bg-color);
+    width: 4rem;
+    overflow: hidden;
+    z-index: 100;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.sidebar a{
+    top: 1rem;
+    position: relative;
+    color: #12372a;
+    font-size: 1rem;
+    display: table;
+    width: 330px;
+    padding: 12px;
+    padding-left: 1.5rem;
+    align-content: center;
+    text-decoration: none;
+}
+.fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    left: 10px;
+    margin-left: 15px;
+}
+
+.sidebar a:hover{
+    color: var(--light-bg-color);
+    background-color:var(--bg-green);
+    border-radius: 1.5rem;
+    
+}
+.sidebar:hover{
+    width: 220px;
+    transition: all 0.5s ease;
+}
+
+.logout{
+    position: absolute;
+    margin-bottom: 5rem;
+}
+.account-content{
+    position: absolute;
+    top: 3rem;
+    width: 70%;
+    height: 85%;
+    margin-left: 15rem;
+    float: over;
+    overflow: hidden;
+    color: var(--light-bg-color);
+    /* background-color: #76885B; */
+}
+
+.topLeft{
+    font-size: 0.8em;
+    padding-top: 1rem;
+    margin-left:5% ;
+}
+.topLeft b{
+    font-size: 0.8rem;
+}
+.account-content .name{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--light-bg-color);
+    font-family: "Marcellus SC", sans-serif;
+}
+.haha{
+    text-align: center;
+}
+.classLeft{
+    margin-left: 34%;
+}
+
+.hehe{
+    margin-right: 30%;
+
+}
+.hehe2{
+    margin-right: 25%;
+
+}
+.hehe3{
+    margin-right: 17.5%;
+
+}
+.hehe4{
+    margin-right: 26%;
+
+}
+.hehe5{
+    margin-right: 19.5%;
+
+}
+.hehe6{
+    margin-right: 35%;
+
+}
+.hehe7{
+    margin-right: 30.9%;
+
+}
+.hehe8{
+    margin-right: 33.5%;
+
+}
+.hehe9{
+    margin-right: 30%;
+
+}
+
+section{
+    margin-right: 10%;
+    width: 80%;
+    text-align: center;
+    color: var(--text-color);
+    font-size: 0.8rem;
+    margin-left: 10%
+  
+  }
+  
+  
+
+footer{
+    background-color: var(--light-bg-color);
+    color: var(--bg-green);
+    font-size: 0.6rem;      
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    height: 1rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

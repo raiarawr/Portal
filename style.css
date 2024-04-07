@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bg-green: #12372a;
+    --sagedark: #76885B;
+    --text-color: rgb(247, 246, 246);
+    --light-bg-color:#adbc9f;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: var(--bg-green) ;
+}
+/* navigation*/
+header{
+    background-color: var(--light-bg-color);
+    position: fixed;
+    width: 100%;
+    height: 2.5rem;
+    justify-content: center;
+    align-content: center;
+}
+header a{
+    color: var(--bg-green);
+    text-decoration: none;
+}
+.home{
+    font-family: "Marcellus SC", serif;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+.navright{
+    font-size: small;
+    float: right;
+    display: flex;
+    gap: 1rem;
+    margin-right: 2rem;
+}
+.buttons{
+    margin-left: 1rem;
+    justify-content: center;
+    
+
+}
+.buttons button{
+    padding: 3px;
+
+}
+.buttons .login{
+    background-color: var(--light-bg-color);
+    border-radius: 5px;
+    border: 1px solid black;
+    color: var(--bg-green);
+    padding: 3px 6px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.buttons .login:hover{
+    background-color: #a0c99b;
+    transform: scale(2rem);
+}
+.buttons .register{
+    background-image: linear-gradient(90deg, rgba(18,55,42,1) 0%, rgba(27,140,79,1) 100%);
+    border-radius: 5px;
+    border: 1px solid var(--bg-green);
+    color: var(--text-color);
+    padding: 3px 6px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/*bg png*/
+.container{
+    display: flex;  
+    padding-top: 2.5rem ;
+
+    
+}
+.desc{
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 2.8rem;
+    padding-left: 5rem;
+    color: rgb(115, 139, 111);
+}
+.desc h1{
+    color: var(--light-bg-color);
+    font-family: "Marcellus SC";
+    font-size:5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.bg1-icon{
+    /* padding-top: 2rem; */
+    width: 50%;
+    float: right;
+    
+}
+.bg1-icon img{
+    width: 30rem;
+    height: 18rem;
+    margin-left: 18rem;
+}
+.bg2-icon{
+    float: left;
+    margin-left: -5.2rem;
+}
+.bg2-icon img{
+    width: 30rem;
+    height: 18rem;
+}
+
+
+
+
+
+footer{
+    background-color: var(--light-bg-color);
+    color: var(--bg-green);
+    font-size: 0.6rem;      
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    height: 1rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
