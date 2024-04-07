@@ -147,7 +147,7 @@ header a{
     padding: 0.5rem 1rem ;
     border: 1px #12372a;
     border-radius: 0.6rem;
-    background-color: rgb(161, 215, 233);
+    background-color: rgb(69, 177, 74);
 }    
 
 .form .content  .submit button:hover{
@@ -165,7 +165,7 @@ header a{
     text-decoration: none;
 }
 .form .content .login span{
-    color: rgb(161, 215, 233);
+    color: rgb(33, 209, 42);
 }
 /*bg png*/
 
